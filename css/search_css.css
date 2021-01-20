@@ -1,0 +1,581 @@
+ .searchContBody {
+	float: left;
+	width: 100%;
+	margin-bottom: 15px;
+}
+.video-head .v1_header{
+position:relative;
+margin-bottom:0px;
+z-index: 99999;
+}
+.video-head .v1_header.navbar-fixed-top {
+	position: fixed;
+	top: 0;
+}
+header.new-header {
+    height: 54px;
+}
+section {
+    background: #eee;
+}
+.searchMainHead {
+	float: left;
+	width: 100%;
+	color: #0aa4ff;
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+
+.searchPera {
+	float: left;
+	width: 100%;
+	color: #2b2b2b;
+	font-size: 14px;
+	margin-bottom: 10px;
+	max-height: 40px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+}
+
+.searchLink {
+	float: left;
+	width: 100%;
+	color: #448aff;
+	font-size: 16px;
+	margin-bottom: 0px;
+}
+
+.searchMainHead:hover,
+.searchMainHead:active,
+.searchMainHead:focus {
+	color: #0aa4ff;
+	text-decoration: none;
+}
+
+.searchLink:hover,
+.searchLink:active,
+.searchLink:focus {
+	color: #448aff;
+	text-decoration: none;
+}
+
+.searchTabList {
+	margin-bottom: 30px;
+}
+
+.searchInputBody {
+	float: left;
+	width: 100%;
+}
+
+.searchInputSubBody {
+	float: left;
+	width: 100%;
+	margin-bottom: 40px;
+	position: relative;
+	margin-top: -30px;
+}
+
+.searchInputSubBody input {
+	width: 100%;
+	border: none;
+	padding: 10px 15px 10px 60px;
+	background-color: #fff;
+	box-shadow: 0 0 6px #aaa;
+	border-radius: 10px;
+	height: 60px;
+	z-index: 2;
+	float: left;
+	position: relative;
+	font-weight: 600;
+	font-size: 18px;
+}
+
+.searchBtnBody {
+	width: auto;
+	position: absolute;
+	right: 8px;
+	top: 8px;
+	font-size: 0;
+	white-space: nowrap;
+	z-index: 4;
+}
+
+.searchBtnBody .v1_seachbtnHeader {
+	background-color: #ff9500;
+	outline: 0;
+	border-radius: 0 2px 2px 0;
+	border: 0;
+	height: 40px;
+	outline: none;
+}
+
+.btn.active.focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn:active:focus,
+.btn:focus {
+	outline: 0px auto -webkit-focus-ring-color;
+	outline-offset: 0px;
+}
+
+.searchBtnBody .v1_seachbtnHeader i {
+	font-size: 16px;
+	color: #fff;
+	display: none;
+}
+
+.searchResultTag {
+	width: 100%;
+	float: left;
+	margin-bottom: 10px;
+	display: none;
+}
+
+.searchResultTag p {
+	width: auto;
+	float: left;
+	color: #666;
+	font-size: 16px;
+	margin-bottom: 10px;
+	font-weight: 600;
+}
+
+.searchResultTag a {
+	width: auto;
+	float: left;
+	color: #0aa4ff;
+	font-size: 16px;
+	margin-bottom: 10px;
+	font-weight: 600;
+	margin-left: 5px;
+}
+
+.searchTabListBody {
+	float: left;
+	width: 100%;
+	display: none;
+}
+
+.searchInputSubBody input:focus {
+	border-color: none;
+	outline: 0;
+	box-shadow: 0 0 6px #aaa;
+}
+
+.searchresultmainbox {
+	display: none;
+}
+
+.searchResultBody {
+	width: 100%;
+	position: absolute;
+	left: 0;
+	top: 55px;
+	background: #fff;
+	display: none;
+	box-shadow: 0 0 6px #aaa;
+	z-index: 2;
+	border-radius: 0 0 10px 10px;
+}
+
+.searchResultList {
+	float: left;
+	width: 100%;
+	list-style: none;
+	margin: 0;
+	padding: 2px 0;
+}
+
+.searchResultList li {
+	float: left;
+	width: 100%;
+}
+
+.searchResultList li a {
+	float: left;
+	width: 100%;
+	color: #0aa4ff;
+	font-size: 16px;
+	padding: 6px 40px 6px 15px;
+	position: relative;
+}
+
+.searchResultList li a i {
+	position: absolute;
+	right: 10px;
+	top: 8px;
+	color: #999;
+	font-size: 13px;
+}
+
+.searchResultGetList {
+	float: left;
+	width: 100%;
+	list-style: none;
+	margin: 0;
+	padding: 2px 0;
+}
+
+.searchResultGetList li {
+	float: left;
+	width: 100%;
+}
+
+.searchResultGetList li {
+	float: left;
+	width: 100%;
+	color: #2b2b2b;
+	font-size: 16px;
+	padding: 6px 40px 6px 15px;
+	position: relative;
+}
+
+.searchResultGetList li p {
+	color: #2b2b2b;
+	margin: 0;
+	cursor: pointer;
+}
+
+.searchResultGetList li i {
+	position: absolute;
+	right: 10px;
+	top: 8px;
+	color: #999;
+	font-size: 13px;
+	cursor: pointer;
+}
+
+.searchResultGotoTag {
+	float: left;
+	width: 100%;
+	background: #ddd;
+	padding: 6px 15px;
+	color: #2b2b2b;
+	font-size: 16px;
+	margin: 0;
+	font-weight: 600;
+}
+
+.searchResultGetList li i.glyphicon-arrow-up {
+	transform: rotate(-45deg);
+}
+
+.seachbtnBack {
+	position: absolute;
+	left: 0;
+	top: 0;
+	background-color: #fff;
+	border-radius: 0;
+	border: 0;
+	height: 38px;
+	outline: none;
+	padding: 7px 12px 4px 12px;
+	display: none;
+}
+
+.seachbtnBack i {
+	font-size: 16px;
+	color: #666;
+}
+
+.selfServiceSection {
+	margin-bottom: 30px;
+}
+
+.searchLeftIcon {
+	position: absolute;
+	left: 20px;
+	top: 20px;
+	color: #cbcbcb;
+	font-size: 20px;
+	z-index: 4;
+}
+
+.seachbtnSubmit {
+	float: left;
+	width: 200px;
+	text-transform: uppercase;
+	border: none;
+	background: #ff9500;
+	border-radius: 5px;
+	font-weight: 900;
+	font-size: 16px;
+	text-align: center;
+	color: #fff;
+	padding: 10px;
+	z-index: 4;
+}
+
+.seachbtnSubmit .findItText {
+	text-transform: uppercase;
+	font-weight: 900;
+	font-size: 16px;
+	color: #fff;
+	width: 100%;
+	z-index: 4;
+	font-style: normal;
+}
+
+.seachbtnSubmit .findItIcon {
+	font-size: 23px;
+	color: #fff;
+	display: none;
+	z-index: 4;
+}
+
+.searchYouList {
+	display: none;
+	width: 100%;
+	float: left;
+}
+
+.searchYouNoList {
+	width: 100%;
+	float: left;
+	margin-bottom: 30px;
+	display: none;
+}
+
+.searchYouNoList p {
+	width: 100%;
+	float: left;
+	color: #666;
+	font-size: 18px;
+	margin-bottom: 10px;
+	font-weight: 600;
+	margin-bottom: 15px;
+}
+
+.suggestionsearchauto {
+	display: none;
+}
+
+.directlygoauto {
+	display: none;
+}
+
+.hbBack {
+	position: relative;
+	float: left;
+	width: 100%;
+	background-color: #2b2b2b;
+}
+
+.hbBannerContent {
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	padding: 30px 0;
+}
+
+.hbHeadLink {
+	float: left;
+	width: 100%;
+}
+
+.hbHeadLink a {
+	width: auto;
+	float: left;
+	display: inline-block;
+	font-weight: 900;
+	font-size: 18px;
+	color: #fff;
+	margin: 0 5px 15px 0px;
+}
+
+.hbHeadLink a:after {
+	content: "|";
+	margin-left: 5px;
+}
+
+.hbHeadLink a:last-child::after {
+	content: "";
+	margin-left: 0px;
+}
+
+.hbBannerContentLeft p {
+	width: 100%;
+	float: left;
+	font-size: 16px;
+	color: #fff;
+	margin: 0px 0 15px 0;
+}
+
+.hbBannerSlider {
+	width: 100%;
+	float: left;
+}
+
+.hbBannerSliderBox {
+	width: 100%;
+	float: left;
+	position: relative;
+	height: 200px;
+	background-color: #2b2b2b;
+	outline: none;
+}
+
+.hbBannerSliderBox .hbBannerSliderImg {
+	width: 100%;
+	float: left;
+	height: 200px;
+}
+
+.hbBannerContentLeft {
+	float: left;
+	width: 60%;
+	padding-right: 60px;
+}
+
+.hbBannerContentRight {
+	float: right;
+	width: 40%;
+}
+
+.hbBannerContentRight .hbBanContRightPera {
+	width: auto;
+	float: right;
+	margin: 0px 0 15px 0;
+}
+
+.hbBannerContentRight .hbBanContRightPera p {
+	width: 100%;
+	float: right;
+	font-size: 16px;
+	color: #fff;
+	margin: 0px;
+	font-weight: 900;
+	white-space: pre-line;
+}
+
+.hbHeadVideoImage {
+	width: auto;
+	float: right;
+	padding-right: 20px;
+}
+
+.hbHeadVideoImage img {
+	border-radius: 5px;
+	width: auto;
+	height: 105px;
+}
+
+@media screen and (min-width:319px) and (max-width:767px) {
+	.seachbtnSubmit {
+		width: auto;
+		padding: 13px;
+	}
+	.seachbtnSubmit .findItText {
+		display: none;
+	}
+	.seachbtnSubmit .findItIcon {
+		display: block;
+	}
+	.searchLeftIcon {
+		display: none;
+	}
+	.searchInputSubBody input {
+		padding: 10px 15px 10px 15px;
+	}
+	.searchBtnBody {
+		right: 5px;
+		top: 5px;
+	}
+	.searchInputSubBody {
+		width: 100%;
+	}
+	.searchTabListBody {
+		overflow-x: auto;
+		white-space: nowrap;
+	}
+	.searchTabList {
+		float: none;
+	}
+	.searchTabList li {
+		float: none;
+		display: inline-block;
+		padding-right: 25px;
+	}
+	.searchMobilePosition {
+		position: fixed;
+		left: 0;
+		top: 0;
+		z-index: 99999;
+		background-color: #fff;
+		height: 100vh;
+		overflow: auto;
+	}
+	.searchMobilePosition .searchResultBody {
+		width: 100%;
+		left: 0;
+		top: 50px;
+		border-radius: 0px;
+		border: none;
+		display: block;
+	}
+	.searchMobilePosition .searchInputSubBody input {
+		margin-top: -1px;
+		border-radius: 0px;
+		padding-left: 45px;
+	}
+	.hbBannerContentLeft {
+		width: 100%;
+		padding-right: 0px;
+		margin-bottom: 15px;
+	}
+	.hbBannerContent {
+		padding: 20px 0;
+	}
+	.hbHeadLink a {
+		float: none;
+		font-size: 16px;
+		margin: 0 5px 10px 0px;
+		text-align: center;
+	}
+	.hbBannerContentLeft p {
+		text-align: center;
+	}
+	.hbHeadLink {
+		text-align: center;
+	}
+	.hbBannerSliderBox {
+		height: 310px;
+	}
+	.hbBannerSliderBox .hbBannerSliderImg {
+		height: 310px;
+	}
+	.hbBannerContentRight {
+		float: left;
+		width: 90%;
+		text-align: center;
+		margin-left: 5%;
+	}
+	.hbHeadVideoImage {
+		float: left;
+		width: 50%;
+	}
+	.hbBanContRightPera {
+		float: right;
+		text-align: left;
+		width: 50%;
+	}
+	.hbBannerContentRight .hbBanContRightPera p {
+		float: left;
+		text-align: left;
+		width: 100%;
+	}
+	.hbHeadVideoImage img {
+		width: 90%;
+		height: auto;
+	}
+	.hbBannerContentRight .hbBanContRightPera {
+		width: 50%;
+	}
+}
