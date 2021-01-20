@@ -28950,4 +28950,19 @@ Main Components
 	.over-pro{
 	overflow-x: auto!important;
 }
+.owncontainerJump{
+	padding-left: 0!important;
+}
+.dynamic-page-wrapper__back{
+	display: none!important;
+}
+.v1_headlogo.addposition{
+	position: absolute;
+    top: 0;
+    left: 38px;
+}
+.dynamic-page-wrapper__backmo{
+	    margin-top: 3px;
+    margin-left: -5px;
+}
 }
